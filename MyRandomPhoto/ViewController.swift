@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         )
     }
 
-    func getRandomPhoto() {
+    func getRandomPhoto() { //Hey, doozy!
         let urlString = "https://source.unsplash.com/random/600x600"
         let url = URL(string: urlString)!
         guard let data = try? Data(contentsOf: url) else {
